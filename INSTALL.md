@@ -4,7 +4,7 @@
 Apple 芯片 Mac（M1 及以后）。Intel Mac 暂不支持。
 
 ## 安装
-1. 在 [Releases](../../releases/latest) 下载 `Celia-x.y.z-arm64.dmg`。
+1. 在 [Releases](../../releases/latest) 下载 `Celia-0.0.1-arm64.dmg`。
 2. 双击打开，把 Celia 拖进「应用程序」。
 3. 弹出盘可以拖进废纸篓或点退出。
 

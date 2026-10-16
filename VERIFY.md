@@ -3,7 +3,7 @@
 每个发行版都附带 `SHA256SUMS`。下载 DMG 后在终端运行：
 
 ```sh
-shasum -a 256 ~/Downloads/Celia-x.y.z-arm64.dmg
+shasum -a 256 ~/Downloads/Celia-0.0.1-arm64.dmg
 ```
 
 输出的前一串字符应与 `SHA256SUMS` 中对应行完全一致，不一致请不要打开。
