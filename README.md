@@ -74,4 +74,4 @@ Celia 是一个装在 Mac 上的桌面应用，为制造业外贸业务员设计
 
 Celia 使用了大量开源组件，许可证与致谢随每个发行版附带（`NOTICE.md`、`LGPL-REPLACEMENT.md` 和对应源码包）。
 
-<sub>English: Celia is a macOS (Apple silicon) desktop workspace for manufacturing export sales — customer development, follow-up sequences, inquiries and quotes, with an AI assistant that drafts but never sends anything without your per-item confirmation. Data stays on your Mac. Download the DMG from Releases.</sub>
+<sub>English: Celia is a macOS (Apple silicon) desktop workspace for manufacturing export sales — customer development, follow-up sequences, inquiries and quotes, with an AI assistant that researches, writes and sends for you; every action is logged and can be undone, and you can pause it at any time. Data stays on your Mac. Download the DMG from Releases.</sub>
