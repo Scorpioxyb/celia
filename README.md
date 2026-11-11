@@ -43,12 +43,12 @@ Celia 是一个装在 Mac 上的桌面应用，为制造业外贸业务员设计
 - **助手 Celia**：研究一家公司、查找有来源的联系人、起草跟进邮件、按你给的汇率换报价币种。每条结论带来源标签，依据不足时会直接说明。跟它说「记住：……」，它会记进「业务记忆」，之后写信、评估客户时会读到。
 - **在其他 AI 工具里用**：可以把 Celia 接到 Codex 这类工具里查客户、写信；联系人只以编号交出去。
 - **扩展**：管理 Celia 使用的技能（如客户画像、开发信写法、工厂能力档案）和它连接的外部能力（邮箱、专用浏览器、公开网页读取）。
-- **主题和语言**：设置 → 外观 里可以切换五套配色（石墨、墨夜、橙灰、酒红灰、雾蓝灰），界面里的标志随之变化；也可以把界面换成英文（0.0.9.7 起，默认跟随系统语言）。
+- **主题和语言**：设置 → 外观 里可以切换五套配色（石墨、墨夜、橙灰、酒红灰、雾蓝灰），界面里的标志随之变化；也可以把界面换成英文（0.0.9.7 起，默认跟随系统语言；0.0.9.9 起提示、导出和官方技能也有英文）。
 
 ## 它怎么对待你的数据和你的客户
 
-- **客户资料保存在你自己的电脑上**（`~/.celia`），没有账号，也没有 Celia 的服务器。
-- **助手直接做事，你随时能撤销。** 助手可以直接发邮件、领英私信和帖子，发出的都记在客户时间线里；删除的客户进客户回收站，可以恢复；随时可以暂停助手。领英账号风险自担。
+- **客户资料保存在你自己的电脑上**（`~/.celia`），没有账号，也没有 Celia 的服务器。助手调用模型时，对话内容会发给你自己选的模型服务（邮箱和电话以编号代替）。
+- **助手把活准备好，发不发由你说了算。** 让它「先写给我看」，你看过再发；说「写好就发」，它就直接发出。每日跟进的草稿总是等你看过再发。发出的都记在客户时间线里；删除的客户进客户回收站，可以恢复；随时可以暂停助手。领英账号风险自担。
 - **助手整理的客户资料直接保存在本机**，客户时间线里留有记录，可以撤销。
 - **新版本由你确认，小修复自动送达。** 默认每天自动检查一次是否有新版本（只读取发布信息，不带客户资料和密钥，可在设置里关闭）；完整新版本的下载与安装必须由你查看说明并点击确认，更新包有签名和哈希校验，失败会自动回到上一版。0.0.9 起的小修复默认自动下载、下次打开生效，只换运行部分、不动资料，出错自动退回，也可以在设置里关掉。
 - 详细说明见 [数据与隐私](PRIVACY.md)。
@@ -75,4 +75,4 @@ Celia 是一个装在 Mac 上的桌面应用，为制造业外贸业务员设计
 
 Celia 使用了大量开源组件，许可证与致谢随每个发行版附带（`NOTICE.md`、`LGPL-REPLACEMENT.md` 和对应源码包）。
 
-<sub>English: Celia is a macOS (Apple silicon) desktop workspace for manufacturing export sales — customer development, follow-up sequences, inquiries and quotes, with an AI assistant that researches, writes and sends for you; every action is logged and can be undone, and you can pause it at any time. Data stays on your Mac. Download the DMG from Releases.</sub>
+<sub>English: Celia is a macOS (Apple silicon) desktop workspace for manufacturing export sales — customer development, follow-up sequences, inquiries and quotes, with an AI assistant that researches buyers and their contacts, prepares outreach in the customer's language and sends when you say so; every action is logged and can be undone, and you can pause it at any time. Your data stays on your Mac; model calls go to the model service you choose. Download the DMG from Releases.</sub>
